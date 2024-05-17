@@ -1,0 +1,81 @@
+{
+    "users": [
+      {
+        "_id": "unique_user_id_1",
+        "email": "parent1@example.com",
+        "homeAddress": "123 Main St",
+        "postalCode": "12345",
+        "name": "John",
+        "surname": "Doe",
+        "phoneNumberParent1": "123-456-7890",
+        "phoneNumberParent2": "098-765-4321",
+        "kids": [
+          {
+            "name": "Jane",
+            "activities": [
+              {"activityId": "unique_activity_id_1", "activityName": "Football"}
+            ]
+          }
+        ]
+      },
+      {
+        "_id": "admin_user_id",
+        "email": "antony@gmail.com",
+        "password": "$2a$10$z2X1Ls6NLKjRRU5TQPVAb.uRUCoAtNTSBUnc/HjIbJyl9I2Gd33Fi",
+        "isAdmin": true
+      }
+    ],
+    "activities": [
+      {"_id": "unique_activity_id_1", "name": "Football"},
+      {"_id": "unique_activity_id_2", "name": "Basketball"}
+    ],
+    "map_points": [
+      {
+        "_id": "unique_mappoint_id_1",
+        "longitude": -122.084,
+        "latitude": 37.4219999,
+        "point": "Point of Interest",
+        "images": ["image1.jpg", "image2.jpg"],
+        "locator": "Custom Pin"
+      }
+    ],
+    "buses": [
+      {
+        "_id": "unique_bus_id_1",
+        "model": "Bus Model 1",
+        "licensePlate": "ABC123",
+        "photo": "bus_photo.jpg",
+        "capacity": 50,
+        "remainingCapacity": 10,
+        "driver": {
+          "name": "Driver Name",
+          "picture": "driver_photo.jpg",
+          "dbId": "unique_driver_id_1"
+        }
+      }
+    ],
+    "user_plans": [
+      {
+        "_id": "unique_user_plan_id_1",
+        "userId": "unique_user_id_1",
+        "availableRoutes": 5
+      }
+    ],
+    "user_bookings": [
+      {
+        "_id": "unique_user_booking_id_1",
+        "userId": "unique_user_id_1",
+        "routeBooked": "2024-05-16T09:00:00Z",
+        "routesConsumed": 1
+      }
+    ],
+    "notifications": [
+      {
+        "_id": "unique_notification_id_1",
+        "userId": "unique_user_id_1",
+        "notificationType": "Bus Arrival",
+        "sentTime": "2024-05-16T08:30:00Z"
+      }
+    ]
+  }
+  

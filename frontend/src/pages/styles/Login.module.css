@@ -1,0 +1,14 @@
+/* Login.module.css */
+
+.container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .customForm {
+    width: 40%;
+    border: 2px solid #00000041;
+    padding: 20px;
+  }
+  

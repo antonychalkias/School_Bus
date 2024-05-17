@@ -17,6 +17,11 @@
     7. The server will automatically start the server in localhost:3000
 
 
+3. Database 
+    1. open a Terminal on your machine 
+    2. sudo systemctl status mongod (ubuntu 22.04 or later)
+    3. brew services start mongodb-community (MacOs installed via Homebrew)
+    4. Windows net start MongoDB
 
 
 
@@ -27,6 +32,11 @@
 #Tech Stack
 
 1. Backend : Express.js/Node.js
+    Usefull Dependencies, Packages:
+    1. bcrypt.js: Used for hashing passwords.
+    2. 
+
 2. Database : Mongo.db
 3. Frontend :  React.js
-4. Frontend-Styles : Ant Design 
+    Usefull Dependencies, Packages:
+    1. Ant Design an advanced React.js package that helps with component styling.

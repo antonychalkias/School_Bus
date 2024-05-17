@@ -1,0 +1,39 @@
+backend
+  |- server.js
+  |- routes
+
+       |- userRoutes.js
+       |- activityRoutes.js
+       |- mapRoutes.js
+       |- busRoutes.js
+       |- userPlanRoutes.js
+       |- userBookingRoutes.js
+       |- notificationRoutes.js
+       |- adminRoute.js
+
+    |- models
+       |- User.js
+       |- Activity.js
+       |- Map.js
+       |- Bus.js
+       |- UserPlan.js
+       |- UserBooking.js
+       |- Notification.js
+       |- Admin.js
+       
+     |- middleware
+       |- authMiddleware.js
+       |- validationMiddleware.js
+       |- adminAuthMiddleware.js
+     
+     |- services
+       |- emailService.js
+       |- analyticsService.js
+
+     |- utils
+       |- validation.js
+       |- formatting.js
+
+     |- config
+       |- dbConfig.js
+       |- env.js
