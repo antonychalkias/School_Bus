@@ -1,0 +1,62 @@
+[{
+  "_id": "admin_user_id",
+  "email": "antony@gmail.com",
+  "password": "123456a!",
+  "isAdmin": true
+},
+{
+  "_id": "unique_user_id_1",
+  "email": "parent1@example.com",
+  "homeAddress": "123 Main St",
+  "postalCode": "12345",
+  "name": "John",
+  "surname": "Doe",
+  "phoneNumberParent1": "123-456-7890",
+  "phoneNumberParent2": "098-765-4321",
+  "kids": [
+    {
+      "name": "Jane",
+      "activities": [
+        {
+          "activityId": "unique_activity_id_1",
+          "activityName": "Football"
+        }
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6648ca4b5592e2f0a746ef77"
+  },
+  "parentFirstName": "Antonis",
+  "parentSurname": "Chalkias",
+  "email": "ant.f.chlks@gmail.com",
+  "password": "123456a!",
+  "postalCode": "71306",
+  "homeAddress": "Ethnikis Antistaseos 150",
+  "phoneNumberParent1": "6979585154",
+  "phoneNumberParent2": "6979585154",
+  "kids": [
+    {
+      "name": "123",
+      "activities": [
+        {
+          "activityName": "English Lessons",
+          "_id": {
+            "$oid": "6648ca4b5592e2f0a746ef79"
+          }
+        },
+        {
+          "activityName": "Piano Lessons",
+          "_id": {
+            "$oid": "6648ca4b5592e2f0a746ef7a"
+          }
+        }
+      ],
+      "_id": {
+        "$oid": "6648ca4b5592e2f0a746ef78"
+      }
+    }
+  ]
+}]
