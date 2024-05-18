@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+    .customForm {
+        width: 30%;
+        border: 2px solid #00000041;
+        padding: 10px;
+      }
+
+.buttonWrap{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        flex-direction: row;
+      } 
+
+      .textforreg{
+        font-size: 15px;
+        color: white;
+      }
+    
+      .linktext{
+        margin-left: 10px;
+        text-decoration: underline;
+      }

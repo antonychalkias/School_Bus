@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  
+  .customForm {
+    border: 2px solid #00000041;
+    padding: 10px;
+  }
+  
+  .buttonWrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .buttonWrap button {
+    background-color: #001529;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .buttonWrap button:hover {
+    background-color: #002140;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type='text'],
+  input[type='number'],
+  input[type='file'] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    margin-bottom: 10px;
+  }
+  
+  input[type='file'] {
+    padding: 5px;
+  }
+  
+  input[type='text']:focus,
+  input[type='number']:focus,
+  input[type='file']:focus {
+    outline: none;
+    border: 1px solid #001529;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
