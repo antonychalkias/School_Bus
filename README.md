@@ -19,7 +19,7 @@
 
 3. Database 
     1. open a Terminal on your machine 
-    2. sudo systemctl status mongod (ubuntu 22.04 or later)
+    2. sudo systemctl start mongod/systemctl start mongod.service /sudo systemctl status mongod (ubuntu 22.04 or later)
     3. brew services start mongodb-community (MacOs installed via Homebrew)
     4. Windows net start MongoDB
 

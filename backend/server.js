@@ -12,7 +12,7 @@ const userPlanRoutes = require('./routes/userPlanRoutes');
 const userBookingRoutes = require('./routes/userBookingRoutes');
 const notificationRoutes = require('./routes/notificationRoutes');
 const adminRoutes = require('./routes/adminRoutes');
-
+const userRegisterRoutes = require ('./routes/userRegisterRoutes');
 // Middleware
 app.use(bodyParser.json());
 app.use(cors());
@@ -22,6 +22,7 @@ app.use(cors());
 // Routes
 app.use('/api/users', userRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/users', userRegisterRoutes);
 // app.use('/api/activities', activityRoutes);
 // app.use('/api/maps', mapRoutes);
 // app.use('/api/buses', busRoutes);
