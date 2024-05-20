@@ -4,6 +4,10 @@ import { PlusOutlined, UserOutlined, EnvironmentOutlined } from '@ant-design/ico
 import AddBus from '../components/AddBus';
 import AddPoint from '../components/AddPoint';
 import AddPlans from '../components/AddPlans';
+<<<<<<< HEAD
+=======
+import EditPlans from '../components/EditPlans'; // Import the EditPlans component
+>>>>>>> 27e970e3 (New release)
 
 const AdminDashboard = () => {
   const [activeForm, setActiveForm] = useState(null);
@@ -19,7 +23,14 @@ const AdminDashboard = () => {
   const handleAddMapPointClick = () => {
     setActiveForm('mapPoint');
   };
+<<<<<<< HEAD
 
+=======
+  const handleEditPlansClick = () => {
+    setActiveForm('editPlans');
+  };
+  
+>>>>>>> 27e970e3 (New release)
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '30px' }}>
       <div style={{ margin: '30px' }}>
@@ -39,11 +50,23 @@ const AdminDashboard = () => {
           <Button type="primary" shape="square" size="large" icon={<EnvironmentOutlined />} onClick={handleAddMapPointClick} style={{ backgroundColor: '#001529' }}>
             Add Map Point
           </Button>
+<<<<<<< HEAD
+=======
+
+          <Button type="primary" shape="square" size="large" onClick={handleEditPlansClick} style={{ backgroundColor: '#001529' }}>
+            Edit Plans
+          </Button>
+
+>>>>>>> 27e970e3 (New release)
         </Space>
         {/* Render active form based on state */}
         {activeForm === 'bus' && <AddBus />}
         {activeForm === 'userPlan' && <AddPlans />}
         {activeForm === 'mapPoint' && <AddPoint />}
+<<<<<<< HEAD
+=======
+        {activeForm === 'editPlans' && <EditPlans />}
+>>>>>>> 27e970e3 (New release)
       </div>
     </div>
   );

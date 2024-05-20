@@ -23,6 +23,11 @@ app.use(cors());
 app.use('/api/users', userRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api/users', userRegisterRoutes);
+<<<<<<< HEAD
+=======
+app.use('/api/plans', userPlanRoutes);
+
+>>>>>>> 27e970e3 (New release)
 // app.use('/api/activities', activityRoutes);
 // app.use('/api/maps', mapRoutes);
 // app.use('/api/buses', busRoutes);

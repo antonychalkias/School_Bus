@@ -26,7 +26,11 @@ const AddBus = ({ onSubmit }) => {
   };
 
   return (
+<<<<<<< HEAD
     <div className="container">
+=======
+    <div className="containerbus">
+>>>>>>> 27e970e3 (New release)
       <h2>Add Bus</h2>
       <form onSubmit={handleSubmit} className="customForm">
         <label>
